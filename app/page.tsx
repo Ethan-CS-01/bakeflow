@@ -12,9 +12,12 @@ export default function Home() {
     <span>Pricing</span>
     <span>About</span>
 
-    <button className="rounded-lg bg-white px-4 py-2 font-semibold text-black">
-      Sign In
-    </button>
+    <a
+  href="/login"
+  className="rounded-lg bg-white px-4 py-2 font-semibold text-black"
+>
+  Sign In
+</a>
   </div>
 </nav>
 
